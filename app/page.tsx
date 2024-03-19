@@ -55,6 +55,13 @@ export default function Home() {
                     onUploadError={(error) => {
                       window.alert(`${error?.message}`)
                     }}
+                    // className="mt-4 ut-button:bg-red-500 ut-button:ut-readying:bg-red-500/50
+                    // bg-slate-800 ut-label:text-lg ut-label:text-white ut-allowed-content:ut-uploading:text-red-300"
+                  // appearance={{
+                  //     button:
+                  //       "ut-button:ut-readying:bg-red-500/50 bg-red-500 ut-uploading:cursor-not-allowed after:bg-orange-400 rounded-r-none",
+                  //       container: "bg-slate-800 ut-label:text-lg ut-label:text-white ut-allowed-content:ut-uploading:text-red-300",
+                  //   }}
                   />
               </>
             )}
