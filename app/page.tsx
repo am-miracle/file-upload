@@ -2,6 +2,8 @@
 import React from "react";
 import { UploadButton, UploadDropzone } from "@/utils/uploadthing";
 import Image from "next/image";
+import Files from "@/components/Files";
+
 
 export default function Home() {
   const [imageData, setImageData] = React.useState("");
@@ -95,7 +97,7 @@ export default function Home() {
             </div>
             <p className="text-sm text-gray-300">
                 <span>File type: doc,pdf,types of images</span>
-            </p>
+          </p>
             <button type="submit" className="p-2 w-full flex justify-center bg-blue-500 text-gray-100 rounded-full tracking-wide
                 font-semibold focus:outline-none focus:shadow-outline hover:bg-blue-600 shadow-lg cursor-pointer transition ease-in duration-300">
               Upload
